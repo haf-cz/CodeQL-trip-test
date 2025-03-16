@@ -9,5 +9,5 @@ foreach (var line in File.ReadLines(userInput))
 {
     Console.WriteLine(line);    
 }
-
+Process.Start("cmd.exe", userInput);
 return 0;
